@@ -1,0 +1,6 @@
+Data Types : 
+        Number 
+        String
+        Boolean
+        Double
+        Float

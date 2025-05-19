@@ -1,0 +1,28 @@
+# Terraform files
+.terraform/
+*.terraform.*
+terraform.*
+
+*.tfvars
+override.tf
+override.tf.json
+.terraformrc
+terraform-cloud.tfrc.json
+
+# Crash reports
+crash.log
+crash.*.log
+
+# Ignore files in subdirectories named ".terraform"
+**/.terraform
+
+# Ignore files ending in ".tfplan"
+*.tfplan
+
+# Ignore files ending in ".tfplan.json"
+*.tfplan.json
+
+# Credentials (if you're not using a secure secrets management solution)
+# *_credentials.json
+# *.key
+# *.pem
