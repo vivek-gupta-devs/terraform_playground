@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Responsive Static Webpage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import - Inter */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+
+    <header class="bg-blue-600 text-white p-4 shadow-md rounded-b-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Static Website</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-blue-200 transition duration-300">Home</a></li>
+                    <li><a href="#" class="hover:text-blue-200 transition duration-300">About</a></li>
+                    <li><a href="#" class="hover:text-blue-200 transition duration-300">Services</a></li>
+                    <li><a href="#" class="hover:text-blue-200 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-6 flex-grow">
+        <section class="bg-white p-8 rounded-lg shadow-lg mb-8">
+            <h2 class="text-4xl font-semibold text-blue-700 mb-4">Welcome to Our Page!</h2>
+            <p class="text-gray-700 leading-relaxed text-lg">
+                This is a simple, static webpage designed with HTML and styled beautifully using Tailwind CSS.
+                It's fully responsive, meaning it looks great on any device, from mobile phones to large desktop screens.
+                We've focused on a clean layout, readable typography, and modern aesthetics.
+            </p>
+            <p class="text-gray-700 leading-relaxed text-lg mt-4">
+                Explore the sections above and below to see how different elements are structured.
+                This page serves as a basic template you can expand upon for various purposes.
+            </p>
+            <button class="mt-6 bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300 shadow-md">
+                Learn More
+            </button>
+        </section>
+
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <h3 class="text-2xl font-bold text-gray-800 mb-3">Responsive Design</h3>
+                <p class="text-gray-600">
+                    Our layout adapts seamlessly to different screen sizes, providing an optimal viewing experience
+                    on desktops, tablets, and mobile devices.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <h3 class="text-2xl font-bold text-gray-800 mb-3">Clean & Modern</h3>
+                <p class="text-gray-600">
+                    Utilizing Tailwind CSS, this page boasts a contemporary and minimalist design,
+                    focusing on user readability and visual appeal.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                <h3 class="text-2xl font-bold text-gray-800 mb-3">Easy to Customize</h3>
+                <p class="text-gray-600">
+                    With utility-first CSS, you can easily modify colors, spacing, and layouts
+                    to fit your specific branding needs.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 mt-8 rounded-t-lg">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 My Awesome Site. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-2">
+                <a href="#" class="hover:text-blue-400 transition duration-300">Privacy Policy</a>
+                <a href="#" class="hover:text-blue-400 transition duration-300">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
